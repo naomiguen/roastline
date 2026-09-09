@@ -1,0 +1,37 @@
+{
+  "// catatan": "RoastLine adalah project Flutter/Dart. Extension Java (redhat.java) & 'Gradle for Java' TIDAK dipakai dan tidak boleh meng-import folder android/. Semua error berlabel Java(0) di panel Problems berasal dari extension itu, bukan dari kode project. Setelah file ini dibuat: jalankan 'Developer: Reload Window', lalu 'Java: Clean Java Language Server Workspace' kalau masih muncul.",
+
+  "java.import.gradle.enabled": false,
+  "java.import.maven.enabled": false,
+  "java.import.projectSelection": "manual",
+  "java.project.importOnFirstTimeStartup": "disabled",
+  "java.configuration.updateBuildConfiguration": "disabled",
+  "java.autobuild.enabled": false,
+  "java.gradle.buildServer.enabled": "off",
+  "java.import.exclusions": [
+    "**/android/**",
+    "**/ios/**",
+    "**/build/**",
+    "**/.dart_tool/**",
+    "**/node_modules/**"
+  ],
+
+  "gradle.nestedProjects": false,
+
+  "files.exclude": {
+    "**/.dart_tool": true,
+    "**/.gradle": true,
+    "**/build": true
+  },
+
+  "dart.previewFlutterUiGuides": true,
+
+  "// git-blame": "Matikan anotasi 'nama author' inline di editor (GitLens + fitur bawaan VS Code).",
+  "gitlens.currentLine.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "git.blame.editorDecoration.enabled": false,
+  "git.blame.statusBarItem.enabled": false,
+  "cmake.sourceDirectory": "C:/PAPB/roastline/linux"
+}
