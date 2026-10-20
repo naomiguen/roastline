@@ -200,7 +200,7 @@ class ProfilePage extends StatelessWidget {
   void _showAbout(BuildContext context) {
     showAboutDialog(
       context: context,
-      applicationName: 'RoastLine',
+      applicationName: 'Julidline',
       applicationVersion: '1.0.0',
       applicationIcon: const Icon(Icons.local_fire_department,
           color: AppColors.maroon, size: 36),

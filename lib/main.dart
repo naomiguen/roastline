@@ -46,7 +46,7 @@ Future<void> main() async {
           ),
         ),
       ],
-      child: const RoastLineApp(),
+      child: const JulidlineApp(),
     ),
   );
 }

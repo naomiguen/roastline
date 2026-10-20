@@ -35,7 +35,7 @@ class NotificationService {
   static const AndroidNotificationChannel _channel = AndroidNotificationChannel(
     _channelId,
     'Pengingat Deadline',
-    description: 'Pengingat tugas RoastLine menjelang deadline',
+    description: 'Pengingat tugas Julidline menjelang deadline',
     importance: Importance.max,
   );
 
@@ -44,7 +44,7 @@ class NotificationService {
         android: AndroidNotificationDetails(
           _channelId,
           'Pengingat Deadline',
-          channelDescription: 'Pengingat tugas RoastLine menjelang deadline',
+          channelDescription: 'Pengingat tugas Julidline menjelang deadline',
           importance: Importance.max,
           priority: Priority.high,
           styleInformation: BigTextStyleInformation(body),
@@ -259,7 +259,7 @@ class NotificationService {
       await requestPermissions();
     }
     await showNow(
-      title: 'Tes RoastLine',
+      title: 'Tes Julidline',
       body: 'Kalau kamu lihat ini, notifikasi langsung berfungsi.',
     );
     try {
@@ -282,7 +282,7 @@ class NotificationService {
     if (!exact) {
       return 'Terkirim, tapi izin "Alarm & pengingat" BELUM aktif → notifikasi '
           'terjadwal bisa telat 10–60 detik. Aktifkan di Setelan → Aplikasi → '
-          'RoastLine → Alarm & pengingat. (${pending.length} di antrian)';
+          'Julidline → Alarm & pengingat. (${pending.length} di antrian)';
     }
     return 'Terkirim. Alarm presisi aktif ✔ Tunggu ~10 detik untuk notif '
         'terjadwal. (${pending.length} notif dalam antrian)';

@@ -7,14 +7,14 @@ import 'views/auth/login_page.dart';
 import 'views/auth/new_password_page.dart';
 import 'views/home/home_page.dart';
 
-class RoastLineApp extends StatelessWidget {
-  const RoastLineApp({super.key});
+class JulidlineApp extends StatelessWidget {
+  const JulidlineApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'RoastLine',
+      title: 'Julidline',
       theme: AppTheme.theme,
       home: const _AuthGate(),
     );

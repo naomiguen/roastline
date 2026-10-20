@@ -1,4 +1,4 @@
-# RoastLine
+# Julidline
 
 Aplikasi manajemen deadline yang "nge-roast" kamu kalau nunda tugas.
 Tugas mata kuliah **Pemrograman Aplikasi & Perangkat Bergerak**.

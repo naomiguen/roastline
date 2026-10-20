@@ -52,7 +52,7 @@ class FcmService {
   static Future<void> _onForegroundMessage(RemoteMessage message) async {
     lastForegroundMessage.value = message;
     final n = message.notification;
-    final title = n?.title ?? 'RoastLine';
+    final title = n?.title ?? 'Julidline';
     final body = n?.body ?? message.data['body']?.toString() ?? 'Pesan baru';
     debugPrint('FCM foreground: $title - $body');
 

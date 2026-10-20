@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../core/constants/app_colors.dart';
 
-/// Tombol utama RoastLine (maroon, rounded). Menampilkan spinner saat [loading].
+/// Tombol utama Julidline (maroon, rounded). Menampilkan spinner saat [loading].
 class CustomButton extends StatelessWidget {
   final String label;
   final VoidCallback? onPressed;

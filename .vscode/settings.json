@@ -1,5 +1,5 @@
 {
-  "// catatan": "RoastLine adalah project Flutter/Dart. Extension Java (redhat.java) & 'Gradle for Java' TIDAK dipakai dan tidak boleh meng-import folder android/. Semua error berlabel Java(0) di panel Problems berasal dari extension itu, bukan dari kode project. Setelah file ini dibuat: jalankan 'Developer: Reload Window', lalu 'Java: Clean Java Language Server Workspace' kalau masih muncul.",
+  "// catatan": "Julidline adalah project Flutter/Dart. Extension Java (redhat.java) & 'Gradle for Java' TIDAK dipakai dan tidak boleh meng-import folder android/. Semua error berlabel Java(0) di panel Problems berasal dari extension itu, bukan dari kode project. Setelah file ini dibuat: jalankan 'Developer: Reload Window', lalu 'Java: Clean Java Language Server Workspace' kalau masih muncul.",
 
   "java.import.gradle.enabled": false,
   "java.import.maven.enabled": false,

@@ -38,7 +38,7 @@ class AuthHeader extends StatelessWidget {
           ),
           const SizedBox(height: 12),
           const Text(
-            'RoastLine',
+            'Julidline',
             style: TextStyle(
               color: Colors.white,
               fontSize: 28,

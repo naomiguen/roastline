@@ -1,4 +1,4 @@
-# RoastLine — Panduan Setup
+# Julidline — Panduan Setup
 
 Aplikasi manajemen deadline (Flutter + Supabase + Firebase Cloud Messaging)
 untuk tugas **Pemrograman Aplikasi & Perangkat Bergerak**.
@@ -82,7 +82,7 @@ isi kedua nilainya. Kalau belum diisi, muncul layar pengingat (tidak crash).
 
 ## 2. Notifikasi
 
-RoastLine punya **3 lapis notifikasi**, semua sudah aktif kecuali FCM (butuh
+Julidline punya **3 lapis notifikasi**, semua sudah aktif kecuali FCM (butuh
 project Firebase).
 
 | Lapis | Butuh | Status |
@@ -110,7 +110,7 @@ project Firebase).
 > baterai agresif (Xiaomi/Samsung dsb), alarm OS bisa tertunda/hilang — itu
 > batasan Android, bukan bug. Solusi pasti "push walau app mati": FCM dari
 > server + cron (di luar cakupan tugas). Untuk demo: izinkan exact alarm +
-> matikan optimasi baterai untuk RoastLine, atau biarkan app tetap terbuka.
+> matikan optimasi baterai untuk Julidline, atau biarkan app tetap terbuka.
 
 > Reminder lokal **tidak jalan di web** (otomatis no‑op). Untuk demo pakai
 > emulator/HP Android.
@@ -141,7 +141,7 @@ await Firebase.initializeApp(
 
 ### Cara manual (Android)
 
-1. Firebase Console → tambah app Android, `applicationId` = `com.example.roastline`.
+1. Firebase Console → tambah app Android, `applicationId` = `com.julidline.app`.
 2. Unduh `google-services.json` → taruh di `android/app/`.
 3. `android/settings.gradle.kts`, di blok `plugins { }` tambahkan:
    ```kotlin
@@ -176,7 +176,7 @@ flutter run                                  # cukup ini; kredensial dari assets
 flutter run --dart-define-from-file=assets/env.json
 ```
 
-Di VS Code cukup tekan **F5** (config "RoastLine (debug)" di `.vscode/launch.json`).
+Di VS Code cukup tekan **F5** (config "Julidline (debug)" di `.vscode/launch.json`).
 
 Analisis & test:
 

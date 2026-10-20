@@ -66,8 +66,8 @@ void main() {
 
   testWidgets('smoke: MaterialApp bisa dirender', (tester) async {
     await tester.pumpWidget(
-      const MaterialApp(home: Scaffold(body: Text('RoastLine'))),
+      const MaterialApp(home: Scaffold(body: Text('Julidline'))),
     );
-    expect(find.text('RoastLine'), findsOneWidget);
+    expect(find.text('Julidline'), findsOneWidget);
   });
 }
