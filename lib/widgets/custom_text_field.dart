@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 
 import '../core/constants/app_colors.dart';
 
-/// Field berlabel sesuai desain: label kecil di atas, input putih rounded,
-/// ikon maroon di kiri (prefix), opsional ikon aksi di kanan (suffix).
 class CustomTextField extends StatelessWidget {
   final String label;
   final String hint;

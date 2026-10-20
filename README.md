@@ -7,8 +7,8 @@ Tugas mata kuliah **Pemrograman Aplikasi & Perangkat Bergerak**.
 
 ## Fitur 
 
-Register · Login · Reset kata sandi · Lihat profil · Lihat daftar tugas ·
-Tambah tugas · Lihat detail tugas (countdown + roast) · Tandai tugas selesai ·
+Register · Login · Reset kata sandi · Logout · Lihat profil · Lihat daftar tugas ·
+Tambah tugas · Lihat detail tugas (countdown + roast) · Edit tugas · Tandai tugas selesai ·
 Hapus tugas · Notifikasi.
 
 ## Mulai

@@ -15,7 +15,7 @@ lib/
 │  ├─ theme/app_theme.dart
 │  └─ utils/                        # date_formatter, roast_generator
 ├─ data/
-│  ├─ models/                       # Profile, Task, AppNotification  (mengikuti ERD)
+│  ├─ models/                       # Profile, Task, AppNotification  
 │  ├─ services/                     # supabase_service, fcm_service
 │  └─ repositories/                 # auth, profile, task, notification
 ├─ controllers/                     # ChangeNotifier (Provider): auth, task, profile, notification
@@ -106,7 +106,7 @@ project Firebase).
 - Izin `POST_NOTIFICATIONS` + **Alarm & pengingat** (exact alarm) diminta otomatis
   saat home dibuka. Tanpa exact alarm, notifikasi bisa telat beberapa menit.
 
-> **Batas nyata:** kalau app di-*kill* total DAN HP dalam mode Doze/hemat
+> **Batasan:** kalau app di-*kill* total DAN HP dalam mode Doze/hemat
 > baterai agresif (Xiaomi/Samsung dsb), alarm OS bisa tertunda/hilang — itu
 > batasan Android, bukan bug. Solusi pasti "push walau app mati": FCM dari
 > server + cron (di luar cakupan tugas). Untuk demo: izinkan exact alarm +
@@ -243,9 +243,6 @@ Sumber gambar dibuat oleh `tool/make_icon.py` (butuh `pip install Pillow`).
 
 ## Catatan
 
-- Kolom di luar ERD yang ditambahkan (implementasi, bukan perubahan desain):
-  `notifications.is_read` / `created_at` / `kind`, dan `tasks.completed_at`
-  (waktu tugas ditandai selesai). Kolom inti ERD tetap.
 - `minSdk` mengikuti default Flutter (24). `flutter_local_notifications` butuh
   `coreLibraryDesugaring` — sudah diaktifkan di `android/app/build.gradle.kts`.
 - Reminder lokal butuh izin exact alarm di sebagian Android; kalau ditolak,
